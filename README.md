@@ -12,12 +12,12 @@
 ### Intrucciónes de ejecución
 
 - Clona el proyecto utilizando git o descargalo en archivo zip
-- Ubicate en la carpeta principal accede a la siguiente carpeta -api_ey
+- Ubicate en la carpeta principal accede a la siguiente carpeta api_ey
 ```
 cd api_ey
 ```
 - Crea una base de datos llamada api_ey en MySQL
-- Ir a la terminal y poner hacer las migraciones en Django, asegurate que en XAMP tengas activado MySQL:
+- Ir a la terminal y poner poder realizar las migraciones en Django, asegurate que en XAMP tengas activado MySQL:
 ```
 python manage.py migrate
 ```
