@@ -38,3 +38,6 @@ python manage.py runserver
 http://127.0.0.1:8000/api/articulos/
 ```
 - Aqui podremos observar a nuestra api y realizar en Postman o Thunder Client las peticiones (GET, PUT, POST, DELETE)
+
+## Modelo Entidad Relación
+![Modelo Entidad Relacion](./ModeloEntidadRelacion.PNG)
