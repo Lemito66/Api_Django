@@ -25,6 +25,10 @@ python manage.py migrate
 ```
 python manage.py makemigrations
 ```
+- Ingresamos a MySQL a la tabla api_articulos de la base de datos api_ey e insertamos los siguientes datos: 
+```
+INSERT INTO `api_articulos` (`id`, `codigo_articulo`, `nombre_articulo`, `descripcion_articulo`, `cantidad_disponible_del_articulo`) VALUES (NULL, 'Art001', 'Detergente', 'Descripción', '3'), (NULL, 'Art002', 'Comida Enlatada', 'Descripción', '')
+```
 - Ahora ejecutemos la aplicación con el siguiente comando:
 ```
 python manage.py runserver
@@ -33,4 +37,4 @@ python manage.py runserver
 ```
 http://127.0.0.1:8000/api/articulos/
 ```
--Aqui podremos observar a nuestra api y realizar en Postman o Thunder Client las peticiones (GET, PUT, POST, DELETE)
+- Aqui podremos observar a nuestra api y realizar en Postman o Thunder Client las peticiones (GET, PUT, POST, DELETE)
