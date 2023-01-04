@@ -22,10 +22,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 #pip install python-decouple
-SECRET_KEY = config('SECRET_KEY')
+#SECRET_KEY = config('SECRET_KEY')
+SECRET_KEY='django-insecure-1_bs=3*2-(lfj0jt$wy%*c%a$wczh=kem#6%5%%!v6x#r%la0p'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = config('DEBUG', cast=bool)
+#DEBUG = config('DEBUG', cast=bool)
+DEBUG= True
 
 ALLOWED_HOSTS = []
 
